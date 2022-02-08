@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Calibri;
+}
+
+header {
+    background-color: #23289F;
+    color: white;
+    margin: 0;
+}
+
+header i {
+    font-size: 25px;
+}
+
+/* Aquí empieza la segunda parte */
+
+.container{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.list-group-item {
+    display: grid;
+    grid-template-columns: 4fr 40px;
+    align-items: center;
+}
+
+.list-group-item p {
+    margin: 0;
+}
+
+.search form {
+    margin: 0 auto;
+}
+
+input {
+    height: 30px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.btn {
+    height: 29px;
+    font-size: 12px;
+}
